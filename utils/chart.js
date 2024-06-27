@@ -9,24 +9,26 @@ const generateChart = (chartOptions) => {
       },
     };
 
-    const options = exporter.setOptions(exportSettings);
-    // Initialize a pool of workers
-    await exporter.initPool(options);
-
     exporter.startExport(exportSettings, (res, err) => {
       if (err) {
         return reject(err);
       }
-      console.log(res.data);
-      resolve(res.data);
-      // Kill the exporter pool
-      exporter.killPool();
+      resolve(`data:image/png;base64,${res.data}`);
     });
   });
 };
 
 export const generateCharts = async (timeSeriesPageData) => {
   const charts = {};
+
+  const options = exporter.setOptions({
+    export: {
+      type: "png",
+    },
+  });
+
+  // Initialize a pool of workers
+  await exporter.initPool(options);
 
   for (const [metricName, data] of Object.entries(timeSeriesPageData)) {
     const chartOptions = {
@@ -53,6 +55,8 @@ export const generateCharts = async (timeSeriesPageData) => {
 
     charts[metricName] = await generateChart(chartOptions);
   }
+
+  exporter.killPool();
 
   return charts;
 };

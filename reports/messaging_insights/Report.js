@@ -3,11 +3,11 @@ import React from "react";
 import { OverviewPage, TimeSeriesPage } from "./pages";
 
 const MessagingInsightsDocument = ({ pdfData }) => {
-  const { overviewPageData, timeSeriesPageData, charts } = pdfData;
+  const { overviewPageData, charts } = pdfData;
   return (
     <Document>
       <OverviewPage overviewPageData={overviewPageData} />
-      <TimeSeriesPage timeSeriesPageData={timeSeriesPageData} charts={charts} />
+      <TimeSeriesPage charts={charts} />
     </Document>
   );
 };
