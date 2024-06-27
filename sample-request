@@ -1,0 +1,969 @@
+{
+  "overviewPageData": {
+    "tableData": [
+      [
+        "Medium (04/06/22-05/06/24)",
+        "Total Sent",
+        "Total Clicks"
+      ],
+      [
+        "Email",
+        "8,310",
+        "770"
+      ],
+      [
+        "In-App",
+        "0",
+        "0"
+      ]
+    ],
+    "analyticsMetricDefinitions": {
+      "conversions / unique sms sends": {
+        "id": 77,
+        "metricName": "ConversionPerSMSSendRate",
+        "createdAt": "2023-05-08T15:23:55.335Z",
+        "updatedAt": "2023-05-31T14:23:41.956Z",
+        "definition": "Conversions / Unique SMS sent",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-unique-sms-sends",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "revenue / m (push)": {
+        "id": 56,
+        "metricName": "RevenuePerPushSendMille",
+        "createdAt": "2023-05-08T15:23:55.300Z",
+        "updatedAt": "2023-05-31T14:23:41.929Z",
+        "definition": "Revenue per Mille (thousand push notifications sent)",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / unique web push sends": {
+        "id": 49,
+        "metricName": "ConversionPerWebPushSendRate",
+        "createdAt": "2023-05-08T15:23:55.297Z",
+        "updatedAt": "2023-05-31T14:23:41.889Z",
+        "definition": "Conversions / Unique web pushes sent",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-unique-web-push-sends",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "push open rate": {
+        "id": 54,
+        "metricName": "PushOpenRate",
+        "createdAt": "2023-05-08T15:23:55.299Z",
+        "updatedAt": "2023-12-21T00:44:31.109Z",
+        "definition": "Percent of push notifications opened. Calculated as Pushes Opened (one per messageId) / (Total Pushes Delivered).",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#push-open-rate",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / in-app hold outs": {
+        "id": 30,
+        "metricName": "ConversionPerInAppHoldOutRate",
+        "createdAt": "2023-05-08T15:23:55.289Z",
+        "updatedAt": "2023-05-31T14:23:41.879Z",
+        "definition": "Conversions / In-app hold out",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-in-app-hold-outs",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique unsubscribes": {
+        "id": 103,
+        "metricName": "UniqueUnsubscribe",
+        "createdAt": "2023-05-08T15:23:55.358Z",
+        "updatedAt": "2023-09-13T05:13:35.519Z",
+        "definition": "Number of unique users (by email) who unsubscribed. Multiple subscribes and unsubscribes from the same user are counted once.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/articles/8147569050516",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "purchases / m (push)": {
+        "id": 52,
+        "metricName": "PurchasePerPushSendMille",
+        "createdAt": "2023-05-08T15:23:55.298Z",
+        "updatedAt": "2023-05-31T14:23:41.890Z",
+        "definition": "Purchases per Mille (thousand pushes sent)",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / web push hold outs": {
+        "id": 50,
+        "metricName": "ConversionPerWebPushHoldOutRate",
+        "createdAt": "2023-05-08T15:23:55.297Z",
+        "updatedAt": "2023-05-31T14:23:41.890Z",
+        "definition": "Conversions / Total webpush hold out",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-web-push-hold-outs",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / unique emails delivered": {
+        "id": 10,
+        "metricName": "ConversionPerEmailDeliveredRate",
+        "createdAt": "2023-05-08T15:23:55.226Z",
+        "updatedAt": "2023-05-31T14:23:41.851Z",
+        "definition": "Conversions / Unique emails delivered",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-unique-emails-delivered",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique email sends": {
+        "id": 26,
+        "metricName": "UniqueEmailSend",
+        "createdAt": "2023-05-08T15:23:55.288Z",
+        "updatedAt": "2023-05-31T14:23:41.878Z",
+        "definition": "An approximate number of emails sent to unique email addresses. Multiple sends to the same email address are counted as a single send. Send skips can cause \nthis number to be smaller than the list size.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/articles/360021169631-Send-Skips",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "email open rate": {
+        "id": 2,
+        "metricName": "EmailOpenRate",
+        "createdAt": "2023-05-08T15:23:55.232Z",
+        "updatedAt": "2023-12-21T00:40:07.599Z",
+        "definition": "Percent of emails opened. Calculated as Email Opens or Clicks (one per messageId) / (Total Emails Delivered).",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#email-open-rate",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "revenue / m (sms)": {
+        "id": 79,
+        "metricName": "RevenuePerSMSSendMille",
+        "createdAt": "2023-05-08T15:23:55.336Z",
+        "updatedAt": "2023-05-31T14:23:41.957Z",
+        "definition": "Revenue per Mille (thousand SMS messages sent)",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique pushes bounced": {
+        "id": 68,
+        "metricName": "UniquePushBounce",
+        "createdAt": "2023-05-08T15:23:55.318Z",
+        "updatedAt": "2023-09-12T22:14:39.911Z",
+        "definition": "Number of push notifications that failed to send. Multiple bounces from the same user are counted once.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique email opens (filtered)": {
+        "id": 24,
+        "metricName": "UniqueEmailOpensFiltered",
+        "createdAt": "2023-05-08T15:23:55.287Z",
+        "updatedAt": "2023-05-31T14:23:41.876Z",
+        "definition": "Similar to Unique Email Opens, but more accurate because it excludes pre-fetched and proxied opens. This metric determines the \"winner\" for experiments based on email opens.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / push hold outs": {
+        "id": 47,
+        "metricName": "ConversionPerPushHoldOutRate",
+        "createdAt": "2023-05-08T15:23:55.296Z",
+        "updatedAt": "2023-05-31T14:23:41.925Z",
+        "definition": "Conversions / Push hold outs",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-push-hold-outs",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique hosted unsubscribe clicks": {
+        "id": 28,
+        "metricName": "UniqueHostedUnsubscribeClick",
+        "createdAt": "2023-05-08T15:23:55.289Z",
+        "updatedAt": "2023-09-12T22:12:25.163Z",
+        "definition": "Number of hosted unsubscribe link clicks, doesn't include multiple clicks per user. This click doesn't count as an unsubscribe.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "total email opens (filtered)": {
+        "id": 13,
+        "metricName": "TotalEmailOpensFiltered",
+        "createdAt": "2023-05-08T15:23:55.241Z",
+        "updatedAt": "2023-05-31T14:23:41.857Z",
+        "definition": "Similar to Total Email Opens, but more accurate because it excludes pre-fetched and proxied opens.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "total inbox impressions": {
+        "id": 42,
+        "metricName": "TotalInboxImpression",
+        "createdAt": "2023-05-08T15:23:55.294Z",
+        "updatedAt": "2023-05-31T14:23:41.886Z",
+        "definition": "Number of times an in-app message has appeared in a user's mobile inbox (as they scroll through the list of all messages).",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / unique sms delivered": {
+        "id": 75,
+        "metricName": "ConversionPerSMSDeliveredRate",
+        "createdAt": "2023-05-08T15:23:55.330Z",
+        "updatedAt": "2023-05-31T14:23:41.956Z",
+        "definition": "Conversions / Unique SMS delivered",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-unique-sms-delivered",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique in-apps delivered": {
+        "id": 43,
+        "metricName": "UniqueInAppDelivered",
+        "createdAt": "2023-05-08T15:23:55.295Z",
+        "updatedAt": "2023-05-31T14:23:41.887Z",
+        "definition": "Number of in-app messages delivered to unique email addresses. Multiple deliveries to the same user are counted once.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "revenue / m (email)": {
+        "id": 3,
+        "metricName": "RevenuePerEmailSendMille",
+        "createdAt": "2023-05-08T15:23:55.236Z",
+        "updatedAt": "2023-05-31T14:23:41.855Z",
+        "definition": "Revenue per Mille (thousand emails sent)",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "total in-app deletes": {
+        "id": 36,
+        "metricName": "TotalInAppDelete",
+        "createdAt": "2023-05-08T15:23:55.292Z",
+        "updatedAt": "2023-05-31T14:23:41.883Z",
+        "definition": "Total number of in-app messages deleted because a user swiped a message in a mobile inbox or clicked a delete button or link.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique sms bounced": {
+        "id": 90,
+        "metricName": "UniqueSMSBounce",
+        "createdAt": "2023-05-08T15:23:55.349Z",
+        "updatedAt": "2023-09-12T22:15:47.845Z",
+        "definition": "Number of SMS bounce events. Multiple bounces from the same user are counted once.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "total in-app closes": {
+        "id": 35,
+        "metricName": "TotalInAppClose",
+        "createdAt": "2023-05-08T15:23:55.291Z",
+        "updatedAt": "2023-09-08T22:09:35.373Z",
+        "definition": "Total number of in-app messages closed because a user tapped a back button or tapped a button or link in the message content.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique pushes sent": {
+        "id": 71,
+        "metricName": "UniquePushSend",
+        "createdAt": "2023-05-08T15:23:55.324Z",
+        "updatedAt": "2023-09-12T22:15:36.181Z",
+        "definition": "Number of push notifications sent to unique users (by email). Sends to multiple enabled devices registered to the same user are counted once.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/articles/213805923-Metrics-Definitions-#unique-pushes-sent",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / unique pushes delivered": {
+        "id": 48,
+        "metricName": "ConversionPerPushDeliveredRate",
+        "createdAt": "2023-05-08T15:23:55.296Z",
+        "updatedAt": "2023-05-31T14:23:41.889Z",
+        "definition": "Conversions / Unique pushes delivered",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-unique-pushes-delivered",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique emails delivered": {
+        "id": 29,
+        "metricName": "UniqueEmailDelivered",
+        "createdAt": "2023-05-08T15:23:55.289Z",
+        "updatedAt": "2023-05-31T14:23:41.880Z",
+        "definition": "Number of emails delivered to unique email addresses. Multiple deliveries to the same email address are counted once.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique in-app sends": {
+        "id": 46,
+        "metricName": "UniqueInAppSend",
+        "createdAt": "2023-05-08T15:23:55.296Z",
+        "updatedAt": "2023-09-12T22:14:21.171Z",
+        "definition": "Number of in-app messages sent to unique email addresses.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/articles/360021169631-Send-Skips",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique sms delivered": {
+        "id": 91,
+        "metricName": "UniqueSMSDelivered",
+        "createdAt": "2023-05-08T15:23:55.351Z",
+        "updatedAt": "2023-05-31T14:23:41.961Z",
+        "definition": "Unique SMS sent - Unique SMS bounced",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#unique-sms-delivered",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "purchases / m (sms)": {
+        "id": 76,
+        "metricName": "PurchasePerSMSSendMille",
+        "createdAt": "2023-05-08T15:23:55.335Z",
+        "updatedAt": "2023-05-31T14:23:41.957Z",
+        "definition": "Purchases per Mille (thousand SMS messages sent)",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / email hold outs": {
+        "id": 14,
+        "metricName": "ConversionPerEmailHoldOutRate",
+        "createdAt": "2023-05-08T15:23:55.225Z",
+        "updatedAt": "2023-05-31T14:23:41.851Z",
+        "definition": "Conversions / Total email holdout",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-email-hold-outs",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "purchases / m (email)": {
+        "id": 5,
+        "metricName": "PurchasePerEmailSendMille",
+        "createdAt": "2023-05-08T15:23:55.236Z",
+        "updatedAt": "2023-05-31T14:23:41.855Z",
+        "definition": "Purchases per Mille (thousand emails sent)",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "total hosted unsubscribe clicks": {
+        "id": 21,
+        "metricName": "TotalHostedUnsubscribeClick",
+        "createdAt": "2023-05-08T15:23:55.284Z",
+        "updatedAt": "2023-05-31T14:23:41.882Z",
+        "definition": "Total number of hosted unsubscribe link clicks, including multiple clicks per person.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "complaint rate": {
+        "id": 7,
+        "metricName": "TotalEmailComplaintRate",
+        "createdAt": "2023-05-08T15:23:55.224Z",
+        "updatedAt": "2023-05-31T14:23:41.812Z",
+        "definition": "Total complaints / Total emails delivered",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#complaint-rate",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / unique in-app opens": {
+        "id": 32,
+        "metricName": "ConversionPerInAppOpenRate",
+        "createdAt": "2023-05-08T15:23:55.290Z",
+        "updatedAt": "2023-05-31T14:23:41.886Z",
+        "definition": "Conversions / Unique in-app open",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-unique-in-app-opens",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "unique custom conversions": {
+        "id": 101,
+        "metricName": "UniqueCustomConversion",
+        "createdAt": "2023-05-08T15:23:55.357Z",
+        "updatedAt": "2023-05-31T14:23:41.966Z",
+        "definition": "Number of unique users (by email) for whom there are one or more custom conversion events. Doesn't include conversions resulting from purchase events. Determines the \"winner\" for experiments based on opens.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      },
+      "conversions / sms hold outs": {
+        "id": 74,
+        "metricName": "ConversionPerSMSHoldOutRate",
+        "createdAt": "2023-05-08T15:23:55.329Z",
+        "updatedAt": "2023-05-31T14:23:41.955Z",
+        "definition": "Conversions / Total SMS hold outs",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "https://support.iterable.com/hc/en-us/articles/213805923-Metrics-Definitions-#conversions-sms-hold-outs",
+        "isMIReportingMetric": true,
+        "isCAReportingMetric": true
+      }
+    },
+    "highLevelMetricDefinitions": {
+      "total purchases": {
+        "id": 17,
+        "metricName": "TotalPurchases",
+        "createdAt": "2023-09-12T21:57:30.975Z",
+        "updatedAt": "2023-05-08T15:24:10.925Z",
+        "definition": "Total number of purchases, whether you're tracking purchases as conversions, or not. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "click rate": {
+        "id": 1,
+        "metricName": "ClickRate",
+        "createdAt": "2023-09-12T21:56:10.309Z",
+        "updatedAt": "2023-05-08T15:24:10.913Z",
+        "definition": "An aggregate of the click rates for selected channels. See channel-specific click rates.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total bounces": {
+        "id": 9,
+        "metricName": "TotalBounces",
+        "createdAt": "2023-09-12T21:57:12.119Z",
+        "updatedAt": "2023-05-08T15:24:10.923Z",
+        "definition": "Total number of bounces for selected channels. See channel-specific definitions. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "revenue": {
+        "id": 8,
+        "metricName": "Revenue",
+        "createdAt": "2023-09-12T21:56:59.544Z",
+        "updatedAt": "2023-05-08T15:24:10.922Z",
+        "definition": "An aggregate of the total value of all purchase events. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total delivered": {
+        "id": 16,
+        "metricName": "TotalDelivered",
+        "createdAt": "2023-09-12T21:57:21.178Z",
+        "updatedAt": "2023-05-08T15:24:10.925Z",
+        "definition": "Total number of messages delivered for selected channels. See channel-specific definitions. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "conversions / send delivered": {
+        "id": 5,
+        "metricName": "ConversionPerSendRate",
+        "createdAt": "2023-09-12T21:56:37.673Z",
+        "updatedAt": "2023-05-08T15:24:10.915Z",
+        "definition": "Total number of conversions divided by the number of messages delivered to unique users for selected channels.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total replies": {
+        "id": 18,
+        "metricName": "TotalReplies",
+        "createdAt": "2023-05-31T14:24:02.704Z",
+        "updatedAt": "2023-05-08T15:24:10.927Z",
+        "definition": "Total number of SMS replies sent by users who have received SMS messages.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "unique clicks": {
+        "id": 21,
+        "metricName": "UniqueClicks",
+        "createdAt": "2023-09-12T21:57:59.739Z",
+        "updatedAt": "2023-05-08T15:24:10.933Z",
+        "definition": "Total number of individual users who clicked a link in a message, excluding clicks on unsubscribe URLs. See channel-specific definitions.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "unsubscribe rate": {
+        "id": 24,
+        "metricName": "UnsubscribeRate",
+        "createdAt": "2023-09-12T21:58:26.363Z",
+        "updatedAt": "2023-05-08T15:24:10.938Z",
+        "definition": "Total number of unsubscribes divided by the number of messages that were successfully delivered for selected channels. See channel-specific definitions. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total send skips": {
+        "id": 19,
+        "metricName": "TotalSendSkips",
+        "createdAt": "2023-09-12T21:57:40.625Z",
+        "updatedAt": "2023-05-08T15:24:10.928Z",
+        "definition": "Total number of messages Iterable didn't or couldn't send for a reason described in Send Skips.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "unique open rate": {
+        "id": 25,
+        "metricName": "UniqueOpenRate",
+        "createdAt": "2023-09-12T21:58:08.391Z",
+        "updatedAt": "2023-05-08T15:24:10.938Z",
+        "definition": "Total number of unique users who opened messages divided by the number of messages delivered for selected channels.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total clicks": {
+        "id": 11,
+        "metricName": "TotalClicks",
+        "createdAt": "2023-09-12T21:57:16.303Z",
+        "updatedAt": "2023-05-08T15:24:10.924Z",
+        "definition": "Total number of clicks for selected channels. See channel-specific definitions. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "purchases / m": {
+        "id": 7,
+        "metricName": "PurchasesPerMille",
+        "createdAt": "2023-09-12T21:56:49.417Z",
+        "updatedAt": "2023-05-08T15:24:10.922Z",
+        "definition": "An aggregate of the purchases per Mille (thousand messages sent) for selected channels. See channel-specific definitions.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "conversions / hold out": {
+        "id": 4,
+        "metricName": "ConversionPerHoldOutRate",
+        "createdAt": "2023-09-12T21:56:29.903Z",
+        "updatedAt": "2023-05-08T15:24:10.914Z",
+        "definition": "Total number of conversions divided by the number of total hold outs for selected channels. See channel-specific definitions.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "bounce rate": {
+        "id": 2,
+        "metricName": "BounceRate",
+        "createdAt": "2023-09-12T21:56:06.248Z",
+        "updatedAt": "2023-05-08T15:24:10.913Z",
+        "definition": "An aggregate of the bounce rates for selected channels. See channel-specific bounce rates.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total unsubscribes": {
+        "id": 22,
+        "metricName": "TotalUnsubscribes",
+        "createdAt": "2023-05-31T14:24:02.705Z",
+        "updatedAt": "2023-05-08T15:24:10.932Z",
+        "definition": "Total number of users who unsubscribed. Users can unsubscribe more than once if they resubscribe and then unsubscribe from the same campaign.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "open rate": {
+        "id": 26,
+        "metricName": "OpenRate",
+        "createdAt": "2024-01-25T23:39:20.598Z",
+        "updatedAt": "2024-01-25T23:39:20.598Z",
+        "definition": "An aggregate of the open rates for selected channels. See channel-specific open rates.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total sent": {
+        "id": 20,
+        "metricName": "TotalSent",
+        "createdAt": "2023-09-12T21:57:44.286Z",
+        "updatedAt": "2023-05-08T15:24:10.929Z",
+        "definition": "Total number of messages sent for selected channels. See channel-specific definitions. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total app uninstalls": {
+        "id": 10,
+        "metricName": "TotalUninstalls",
+        "createdAt": "2023-09-12T21:57:53.334Z",
+        "updatedAt": "2023-05-08T15:24:10.923Z",
+        "definition": "Iterable tracks uninstalls differently, depending on the situation.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "delivery rate": {
+        "id": 6,
+        "metricName": "DeliveryRate",
+        "createdAt": "2023-09-12T21:56:43.706Z",
+        "updatedAt": "2023-05-08T15:24:10.916Z",
+        "definition": "An aggregate of the total messages delivered divided by the total sends for selected channels. See channel-specific definitions.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total opens": {
+        "id": 15,
+        "metricName": "TotalOpens",
+        "createdAt": "2023-09-12T21:57:24.723Z",
+        "updatedAt": "2023-05-08T15:24:10.925Z",
+        "definition": "Total number of messages opened for selected channels. See channel-specific definitions. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "revenue / m": {
+        "id": 12,
+        "metricName": "RevenuePerMille",
+        "createdAt": "2023-09-12T21:57:08.173Z",
+        "updatedAt": "2023-05-08T15:24:10.923Z",
+        "definition": "An aggregate of the Revenue per Mille (thousand messages sent) for selected channels. See channel-specific definitions.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "clicks / opens": {
+        "id": 3,
+        "metricName": "ClicksPerOpensRate",
+        "createdAt": "2023-09-12T21:56:19.742Z",
+        "updatedAt": "2023-05-08T15:24:10.913Z",
+        "definition": "Unique email clicks / Unique email opens or clicks",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total complaints": {
+        "id": 13,
+        "metricName": "TotalComplaints",
+        "createdAt": "2023-05-31T14:24:02.703Z",
+        "updatedAt": "2023-05-08T15:24:10.924Z",
+        "definition": "Total number of individuals who reported your email as spam.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "unique opens": {
+        "id": 23,
+        "metricName": "UniqueOpens",
+        "createdAt": "2023-09-12T21:58:16.803Z",
+        "updatedAt": "2023-05-08T15:24:10.937Z",
+        "definition": "Total number of unique users who opened a message, excluding multiple opens from the same user. ",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      },
+      "total conversions": {
+        "id": 14,
+        "metricName": "TotalCustomConversions",
+        "createdAt": "2023-05-31T14:24:02.703Z",
+        "updatedAt": "2023-05-08T15:24:10.924Z",
+        "definition": "Total number of custom conversion events that occurred. Multiple events for the same user are counted as multiple conversions. Excludes conversions from purchase events.",
+        "longDefinition": "",
+        "calculation": "",
+        "learnMoreLink": "",
+        "isMIReportingMetric": true
+      }
+    }
+  },
+  "timeSeriesPageData": {
+    "Total Clicks": [
+      {
+        "time": 1648771200000,
+        "value": 0
+      },
+      {
+        "time": 1651363200000,
+        "value": 0
+      },
+      {
+        "time": 1654041600000,
+        "value": 0
+      },
+      {
+        "time": 1656633600000,
+        "value": 0
+      },
+      {
+        "time": 1659312000000,
+        "value": 0
+      },
+      {
+        "time": 1661990400000,
+        "value": 0
+      },
+      {
+        "time": 1664582400000,
+        "value": 0
+      },
+      {
+        "time": 1667260800000,
+        "value": 0
+      },
+      {
+        "time": 1669852800000,
+        "value": 0
+      },
+      {
+        "time": 1672531200000,
+        "value": 0
+      },
+      {
+        "time": 1675209600000,
+        "value": 0
+      },
+      {
+        "time": 1677628800000,
+        "value": 0
+      },
+      {
+        "time": 1680307200000,
+        "value": 0
+      },
+      {
+        "time": 1682899200000,
+        "value": 0
+      },
+      {
+        "time": 1685577600000,
+        "value": 0
+      },
+      {
+        "time": 1688169600000,
+        "value": 766
+      },
+      {
+        "time": 1690848000000,
+        "value": 0
+      },
+      {
+        "time": 1693526400000,
+        "value": 0
+      },
+      {
+        "time": 1696118400000,
+        "value": 0
+      },
+      {
+        "time": 1698796800000,
+        "value": 0
+      },
+      {
+        "time": 1701388800000,
+        "value": 0
+      },
+      {
+        "time": 1704067200000,
+        "value": 0
+      },
+      {
+        "time": 1706745600000,
+        "value": 0
+      },
+      {
+        "time": 1709251200000,
+        "value": 0
+      },
+      {
+        "time": 1711929600000,
+        "value": 4
+      },
+      {
+        "time": 1714521600000,
+        "value": 0
+      }
+    ],
+    "Total Sent": [
+      {
+        "time": 1648771200000,
+        "value": 0
+      },
+      {
+        "time": 1651363200000,
+        "value": 0
+      },
+      {
+        "time": 1654041600000,
+        "value": 0
+      },
+      {
+        "time": 1656633600000,
+        "value": 0
+      },
+      {
+        "time": 1659312000000,
+        "value": 0
+      },
+      {
+        "time": 1661990400000,
+        "value": 0
+      },
+      {
+        "time": 1664582400000,
+        "value": 0
+      },
+      {
+        "time": 1667260800000,
+        "value": 0
+      },
+      {
+        "time": 1669852800000,
+        "value": 0
+      },
+      {
+        "time": 1672531200000,
+        "value": 0
+      },
+      {
+        "time": 1675209600000,
+        "value": 0
+      },
+      {
+        "time": 1677628800000,
+        "value": 0
+      },
+      {
+        "time": 1680307200000,
+        "value": 0
+      },
+      {
+        "time": 1682899200000,
+        "value": 0
+      },
+      {
+        "time": 1685577600000,
+        "value": 0
+      },
+      {
+        "time": 1688169600000,
+        "value": 4
+      },
+      {
+        "time": 1690848000000,
+        "value": 3040
+      },
+      {
+        "time": 1693526400000,
+        "value": 16
+      },
+      {
+        "time": 1696118400000,
+        "value": 26
+      },
+      {
+        "time": 1698796800000,
+        "value": 0
+      },
+      {
+        "time": 1701388800000,
+        "value": 0
+      },
+      {
+        "time": 1704067200000,
+        "value": 0
+      },
+      {
+        "time": 1706745600000,
+        "value": 0
+      },
+      {
+        "time": 1709251200000,
+        "value": 2742
+      },
+      {
+        "time": 1711929600000,
+        "value": 132
+      },
+      {
+        "time": 1714521600000,
+        "value": 2350
+      }
+    ]
+  }
+}
