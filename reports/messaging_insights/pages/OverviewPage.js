@@ -1,6 +1,6 @@
 import { Page, Text, View } from "@react-pdf/renderer";
 import React from "react";
-import styles from "./styles";
+import { styles } from "./styles";
 
 const getDefinition = (
   metricName,
@@ -16,7 +16,7 @@ const getDefinition = (
   return definition;
 };
 
-const OverviewPage = ({ overviewPageData }) => {
+export const OverviewPage = ({ overviewPageData }) => {
   const { tableData, highLevelMetricDefinitions, analyticsMetricDefinitions } =
     overviewPageData;
 
@@ -49,5 +49,3 @@ const OverviewPage = ({ overviewPageData }) => {
     </Page>
   );
 };
-
-module.exports = { OverviewPage };

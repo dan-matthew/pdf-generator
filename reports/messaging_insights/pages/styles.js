@@ -1,8 +1,14 @@
 const { StyleSheet } = require("@react-pdf/renderer");
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   page: {
     flexDirection: "column",
+    padding: 20,
+  },
+  pageTimeSeries: {
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
     padding: 20,
   },
   table: {
@@ -33,6 +39,24 @@ const styles = StyleSheet.create({
     marginTop: 2,
     color: "gray",
   },
+  section: {
+    margin: 10,
+    padding: 10,
+    flexGrow: 1,
+    textAlign: "center",
+  },
+  imageContainer: {
+    maxWidth: "80%",
+    aspectRatio: 1.5, // Maintain aspect ratio (width / height)
+    margin: "auto",
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+  },
+  header: {
+    fontSize: 20,
+    marginBottom: 10,
+  },
 });
-
-module.exports = styles;

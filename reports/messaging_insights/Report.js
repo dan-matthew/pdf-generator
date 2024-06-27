@@ -1,18 +1,17 @@
 import { Document, renderToStream } from "@react-pdf/renderer";
 import React from "react";
-import { OverviewPage } from "./pages/OverviewPage";
+import { OverviewPage, TimeSeriesPage } from "./pages";
 
 const MessagingInsightsDocument = ({ pdfData }) => {
-  const { overviewPageData } = pdfData;
+  const { overviewPageData, timeSeriesPageData, charts } = pdfData;
   return (
     <Document>
       <OverviewPage overviewPageData={overviewPageData} />
+      <TimeSeriesPage timeSeriesPageData={timeSeriesPageData} charts={charts} />
     </Document>
   );
 };
 
-const generateMIReport = async (pdfData) => {
+export const generateMIReport = async (pdfData) => {
   return await renderToStream(<MessagingInsightsDocument pdfData={pdfData} />);
 };
-
-module.exports = { generateMIReport };
