@@ -46,7 +46,7 @@ The server will start and run at http://localhost:3000.
 
 - Select the Body tab.
 - Choose raw.
-- Paste the json in the sample-request file
+- Paste the json in the [sample-request](sample-request) file
 
 4. Send the Request
 
