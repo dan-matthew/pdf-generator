@@ -32,6 +32,9 @@ The server will start and run at http://localhost:3000.
 
 ## Making a POST Request with Postman
 
+![image](https://github.com/dan-matthew/pdf-generator/assets/98776588/2a61422a-26a7-4e72-aba4-b4ffbbf57772)
+
+
 1. Open Postman
 
 2. Create a New POST Request
